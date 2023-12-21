@@ -1,0 +1,91 @@
+*{
+    padding : 0px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    width : 1000px;
+    margin-bottom: 300px;
+    margin-left : 200px;
+}
+
+.writing{
+    flex : 3;
+    background-color: #D0D0D0;
+    height : 300px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+}
+.image{
+    flex : 5;
+    height : 300px;
+}
+.left_button{
+    margin-right: 20px;
+    width : 50px;
+    padding-right: 20px;
+    height : 50px;
+}
+.right_button{
+    margin-left: 5px;
+    width : 50px;
+    height : 40px;
+}
+.rimg1{
+    width : 70px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+.rimg2{
+    width : 70px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+.rimg1:active, .rimg2:active{
+    opacity : 0.2;
+}
+
+.storecss{
+    padding : 5px;
+    margin-top: 5px;
+    width : 500px;
+    border-radius: 30px;
+    transition : box-shadow 0.15s;
+}
+.storecss:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.storecss:active{
+    opacity : 0.6;
+}
+
+.portfolio_title{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 60px;
+    font-family: poppins;
+    font-weight: bold;
+    color : rgb(70, 0, 249);
+}
+
+.wtitle{
+    text-align: center;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bold;
+    color : rgb(4, 109, 4);
+}
+
+.wcont{
+    padding: 10px;
+}

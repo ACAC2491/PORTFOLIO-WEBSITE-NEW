@@ -1,0 +1,56 @@
+.intro{
+    display : grid;
+    grid-template-columns: 1fr 400px;
+    margin-left: 20px;
+    margin-bottom: 300px;
+}
+
+.wording{
+    display : block;
+}
+.line1{
+    font-family: Poppins, Arial;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.line2{
+    font-family: Barlow Semi Condensed, Arial;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.line21{
+    font-family: Barlow Semi Condensed, Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color:rgb(211, 34, 34);
+}
+.line3{
+    font-family: Poppins, Arial;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.line31{
+    font-family: Poppins, Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color : rgb(165, 41, 165)
+}
+.line32{
+    font-family: Poppins, Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color : rgb(27, 145, 27)
+}
+.line4{
+    font-family: Poppins, Arial;
+    font-weight: 400px;
+    font-size: 20px;
+}
+.picture{
+    margin-top: 15px;
+    width : 300px;
+    box-shadow: 5px 10px #888888;
+}

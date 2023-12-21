@@ -1,0 +1,35 @@
+.main{
+    display : flex;
+    flex-direction: column;
+}
+.designedby{
+    text-align: center;
+    background-color: black;
+}
+.footer{
+    background-color : #232323;
+    height : 100px;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons1, .icons2, .icons3, .icons4{
+    background-color: white;
+    width : 50px;
+    height: 50px;
+    margin : 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.icons1:active, .icons2:active, .icons3:active, .icons4:active{
+    opacity : 0.4;
+}
+.lastwords{
+    color : white;
+}
